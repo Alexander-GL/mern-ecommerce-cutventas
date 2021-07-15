@@ -1,0 +1,29 @@
+.sign-box {
+    width: 450px;
+    height: 650px;
+    border: solid rgb(236, 235, 235) 1px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+    padding: 25px 55px;
+    border-radius: 5px;
+    margin-left: -150px;
+  }
+  
+  .btn-primary {
+    text-align: center!important;
+    margin: 0 auto!important;
+  }
+  
+  .s-btn {
+    text-align: center!important;
+    margin: 0 auto;
+  }
+
+.info_pass {
+  position: relative;
+  top: -28px;
+}
+
+.line_form {
+  position: relative;
+  top: -8px;
+}

@@ -1,0 +1,358 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.barra_name {
+    margin-top: -30px;
+}
+
+.barra_options {
+    margin-top: 20px;
+}
+
+/* Footer */
+div {
+    display: block;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+.font-small {
+    font-size: .9rem;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+.mdb-color {
+    background-color: #45526e !important;
+}
+
+.models {
+    height: 750px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-group.md-form.form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Card de productos */
+
+.card-cont {
+    position: relative;
+    min-width: 240px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    min-height: 420px;
+    height: 460px;
+    text-align: center;
+}
+
+.card-cont p{
+    font-size: 14px;
+}
+
+.img-cont {
+    width: 100%;
+    height: 200px;
+}
+
+.product-img :hover {
+    cursor: pointer;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+}
+
+.product_name{
+    font-size: 20px;
+}
+
+hr {
+    height: 8px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(99, 99, 99);
+  }
+
+
+
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ }
+
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 18px;
+    cursor:pointer;
+    color: #a3a39e;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 0.9em;
+  }
+  
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     color: #f4f81c;
+  }
+
+.add {
+    position: absolute;
+    width: 40%;
+    border-radius: 44px;
+    text-align: center;
+    right: 11%;
+    bottom: -10px;
+}
+
+.delete {
+    position: absolute;
+    width: 40%;
+    border-radius: 44px;
+    text-align: center;
+    right: 12%;
+    bottom: 17px;
+}
+
+.info {
+    position: absolute;
+    width: 30%;
+    border-radius: 44px;
+    text-align: center;
+    right: 57%;
+    bottom: -10px;
+}
+
+.edit {
+    position: absolute;
+    width: 30%;
+    border-radius: 44px;
+    text-align: center;
+    right: 54%;
+    bottom: 17px;
+}
+
+.buy {
+    position: absolute;
+    border-radius: 44px;
+    text-align: center;
+    bottom: 59px;
+}
+
+/* Card de categorias */
+
+.zoom img, .zoom video {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.view img, .view video {
+    position: relative;
+    display: block;
+}
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.z-depth-1-half {
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) !important;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.stripe.stripe.dark {
+    background-color: #42424273;
+}
+
+.collection-card .stripe.dark a p {
+    color: #eee;
+}
+
+.collection-card .stripe a p {
+    padding: 0;
+    margin: 0;
+    letter-spacing: .25rem;
+}
+
+.collection-card .stripe a:hover {
+    text-decoration: none;
+}
+
+.collection-card .stripe {
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.img-fluid,
+.modal-dialog.cascading-modal.modal-avatar .modal-header,
+.video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagination {
+    color: #212529;
+}
+
+.flayer-product {
+    position: absolute;
+    right: 0;
+    top: 500px;
+    margin: auto;
+    width: 47%;
+}
+
+.flayer-product-food, .flayer-product-electronic, .flayer-product-other {
+    position: absolute;
+    right: 0;
+    top: 350px;
+    margin: auto;
+    width: 42%;
+}
+
+.flayer-product-book {
+    position: absolute;
+    right: 0;
+    top: 500px;
+    margin: auto;
+    width: 43%;
+}
+
+.video-container {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc( 100vw * 0.5625);
+}
+
+.form-category {
+    width:40%;
+	padding:16px;
+	border-radius:10px;
+    margin-top: 100px;
+	background-color:rgba(0, 0, 0, 0.479);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f8f9fa;
+}
+
+.centrarCaja{
+    position :relative !important; 
+    left: 30% !important;
+}

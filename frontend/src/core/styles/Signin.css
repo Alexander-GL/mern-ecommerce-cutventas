@@ -1,0 +1,32 @@
+.sign-box {
+    min-width: 450px;
+    height: 605px;
+    background-color: rgb(236, 235, 235);
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  
+  .btn-primary {
+    text-align: center!important;
+    margin: 0 auto!important;
+  }
+
+  .container-fluid, .link-copy{
+    color: #000000 ;
+    text-decoration: none;
+  }
+
+.linkedin-account {
+  color: #000000;
+  text-decoration: none;
+}
+
+.linkedin-account:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.linkedin-account:active{
+  color: #9c8c56;
+}
